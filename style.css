@@ -7,3 +7,32 @@ body {
     height: 100vh;
     background: #000;
 }
+
+.netflix {
+    position: relative;
+    width: 360px;
+    height: 520px;
+    overflow: hidden;
+    transform: scale(.5);
+}
+
+span {
+    position: absolute;
+    top: 0;
+    width: 120px;
+}
+
+span:nth-child(1) {
+    background: #b00612;
+    left: 0;
+    animation: BottomToTop 1s linear forwards;
+}
+
+@keyframes BottomToTop {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 100%;
+    }
+}
