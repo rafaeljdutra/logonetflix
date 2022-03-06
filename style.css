@@ -36,3 +36,11 @@ span:nth-child(1) {
         height: 100%;
     }
 }
+
+span:nth-child(2) {
+    left: 116px;
+    z-index: 1;
+    background: #cc0311;
+    animation: BottomToTop 1s linear forwards;
+    animation-delay: 1s;
+}
