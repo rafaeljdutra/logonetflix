@@ -49,6 +49,28 @@ span:nth-child(2) {
 
 span:nth-child(3) {
     background: #b00612;
-    left: 0;
+    right: 5px;
     animation: BottomToTop 1s linear forwards;
+    animation-delay: 2s;
+}
+
+.netflix:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500%;
+    height: 100%;
+    z-index: 3;
+    background: linear-gradient(to right, transparent, #000, #000);
+    animation: animate 5s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: -500%;
+    }
 }
