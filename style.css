@@ -43,4 +43,12 @@ span:nth-child(2) {
     background: #cc0311;
     animation: BottomToTop 1s linear forwards;
     animation-delay: 1s;
+    transform: skewX(24deg);
+    box-shadow: 0 0 40px rgba(0,0,0,1);
+}
+
+span:nth-child(3) {
+    background: #b00612;
+    left: 0;
+    animation: BottomToTop 1s linear forwards;
 }
